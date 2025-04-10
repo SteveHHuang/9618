@@ -31,16 +31,18 @@
 
 
 给变量赋值:
-加：**calculate the new value of C by adding A to B**
-减：**calculate the new value of C by subtracting A from B**
-乘：**calculate the new value of C by multiplying A by B**
-除：**calculate the new value of C by dividing A by B**
+
+加：**calculate the new value of C by adding A to B**<br>
+减：**calculate the new value of C by subtracting A from B**<br>
+乘：**calculate the new value of C by multiplying A by B**<br>
+除：**calculate the new value of C by dividing A by B**<br>
 
 1. 连接两个string
-**obtain the new string by concatenating A with B
-assign the new string to Variable**
+**obtain the new string by concatenating A with B**
 
-2. 初始化
+**assign the new string to Variable**
+
+3. 初始化
 **initialize A to B**
 
 
