@@ -42,7 +42,7 @@
 
 **assign the new string to Variable**
 
-3. 初始化
+2. 初始化
 **initialize A to B**
 
 
