@@ -17,9 +17,9 @@ set a counted-controlled loop to iterate through 对象
 
 打开文件
 
-
 open file in read/write/append mode
-<br>
+
+
 关闭文件
 
 直接就是close the file
