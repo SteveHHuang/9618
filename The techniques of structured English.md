@@ -38,15 +38,15 @@ open file in read/write/append mode
 
 <br>
 
-连接两个string
+1. 连接两个string
 
 obtain the new string by concatenating A with B
-
+ 
 assign the new string to Variable
 
 <br>
 
-初始化
+2. 初始化
 
 initialize A to B
 
