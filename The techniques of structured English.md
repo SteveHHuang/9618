@@ -4,7 +4,9 @@
 例如你要用while循环可以这么说
 
 <br>
+
 set a conditional loop, repeating until 条件达成
+
 <br>
 
 如果要用for循环则不一样
@@ -12,7 +14,9 @@ set a conditional loop, repeating until 条件达成
 set a counted-controlled loop to iterate through 对象
 
 <br>
+
 打开文件
+
 
 open file in read/write/append mode
 <br>
