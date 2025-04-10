@@ -1,5 +1,6 @@
 #  The techniques of structured English For AS paper2
 
+
 基本思路就是先写个伪代码的草稿在旁边然后按着步骤一步步来，但可以分为几个大部分:
 
 **1. declare 所有需要的variable或数据结构之类的**
@@ -14,15 +15,22 @@
 **5. 有时候有的题目还得你结合考题本身的内容，只要在描述时扯上点边就好了**
 
 
+
+
 例如你要用while循环可以这么说:
+
 **set a conditional loop, repeating until 条件达成**
 
 
+
 如果要用for循环则不一样:
+
 **set a counted-controlled loop to iterate through 对象**
 
 
+
 打开文件
+
 **open file in read/write/append mode**
 
 
