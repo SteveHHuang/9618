@@ -22,7 +22,9 @@
 
 -holds all the data that is currently being used
 
+
 -volatile 
+
 
 -fast access time
 
