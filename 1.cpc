@@ -1,0 +1,27 @@
+PROCEDURE Square(NUM : INTEGER)
+    DECLARE I, count : INTEGER
+    DECLARE content  : STRING
+    content <- ""
+
+    FOR I <-  1 TO NUM
+        IF I = 1 OR I = NUM THEN
+            FOR count <- 1 TO NUM
+                content <- content & NUM_TO_STR(NUM)
+            NEXT count
+        ELSE
+            FOR count <- 1 TO NUM
+                IF count = 1 OR count = NUM THEN
+                    content <- content & NUM_TO_STR(NUM)
+                ELSE
+                    content <- content & '&'
+
+                ENDIF
+
+            NEXT count     
+        ENDIF
+    OUTPUT content
+    NEXT I
+
+ENDPROCEDURE
+
+CALL Square(9)
