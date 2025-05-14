@@ -1,9 +1,14 @@
 PROCEDURE Square(NUM : INTEGER)
     DECLARE I, count : INTEGER
     DECLARE content  : STRING
-    content <- ""
+    
+    IF NUM > 9 THEN
+        OUTPUT "Invalid input"
+    ELSE 
+
 
     FOR I <-  1 TO NUM
+        content <- ""
         IF I = 1 OR I = NUM THEN
             FOR count <- 1 TO NUM
                 content <- content & NUM_TO_STR(NUM)
@@ -14,14 +19,13 @@ PROCEDURE Square(NUM : INTEGER)
                     content <- content & NUM_TO_STR(NUM)
                 ELSE
                     content <- content & '&'
-
                 ENDIF
-
             NEXT count     
         ENDIF
-    OUTPUT content
+        OUTPUT content
     NEXT I
 
+    ENDIF
 ENDPROCEDURE
 
-CALL Square(9)
+CALL Square(8)
