@@ -22,3 +22,5 @@ i. bubble sort
 ii. insertion sort
 
 # classes and objects
+
+# binary tree
