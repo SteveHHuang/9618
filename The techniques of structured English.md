@@ -1,4 +1,4 @@
-#  The techniques of Structured English (For AS paper2)
+#  The techniques of Structured English For AS paper2
 
 
 基本思路就是先写个伪代码的草稿在旁边然后按着步骤一步步来，但可以分为几个大部分:
