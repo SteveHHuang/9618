@@ -63,7 +63,10 @@ while replay == True:
 
     if response == ans:
         print("you are right!"+" you have tried for", count, "times")
-
+        rep = int(input("Would you want to replay? If you want, press 1 to continue"))
+        if rep == 1:
+                replay = True
+        
     while response != ans:
             if response >= ans:
                 print("Too high") 
