@@ -76,7 +76,7 @@ while replay == True:
             response = int(input("guess a number"))
 
             if response == ans:
-                    print("you are right!"+"you have been tried for", count, "times")
+                    print("you are right!"+"you have tried for", count, "times")
                     rep = int(input("Would you want to replay? If you want, press 1 to continue"))
                     if rep == 1:
                      replay == True
