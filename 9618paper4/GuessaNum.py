@@ -68,7 +68,7 @@ while replay == True:
                 replay = True
         
     while response != ans:
-            if response >= ans:
+            if response > ans:
                 print("Too high") 
             else:
                 print("Too low")    
