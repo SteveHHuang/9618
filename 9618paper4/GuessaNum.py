@@ -26,60 +26,47 @@
 import random
 
 replay = False
-
 count = 1
-
 ans = random.randint(1,100)
 
-response = int(input("Guess a number, between 1 and 100 inclusive:"))
-
-if response == ans:
-    print("you are right!"+" you have tried for", count, "times")
-    rep = int(input("Would you want to replay? If you want, press 1 to continue"))
-    if rep == 1:
-        replay = True
-
-while response != ans:
-    if response > ans:
-                print("Too high") 
-    else:
-                print("Too low")    
-    count += 1
-    response = int(input("Guess a number, between 1 and 100 inclusive:"))
-
-    if response == ans:
-        print("you are right!"+"you have tried for", count, "times")
-        rep = int(input("Do you want to replay? press 1 to continue"))
-        if rep == 1:
-                replay = True
-
-while replay == True:
-
-    count = 1
-
-    ans = random.randint(1,100)
-
+while True:
     response = int(input("Guess a number, between 1 and 100 inclusive:"))
 
     if response == ans:
         print("you are right!"+" you have tried for", count, "times")
-        rep = int(input("Do you want to replay? press 1 to continue"))
+        rep = int(input("Do you want to replay? If you want, press 1 to continue"))
         if rep == 1:
-                replay = True
-        
-    while response != ans:
-            if response > ans:
-                print("Too high") 
-            else:
-                print("Too low")    
-            count += 1
-            response = int(input("Guess a number, between 1 and 100 inclusive:"))
+            replay = True
+        break
 
-            if response == ans:
-                    print("you are right!"+"you have tried for", count, "times")
-                    rep = int(input("Do you want to replay? press 1 to continue"))
-                    if rep == 1:
-                     replay == True
-                    else:
-                     replay = False    
+    else:
+        if response > ans:
+                    print("Too high") 
+        else:
+                    print("Too low")    
+        count += 1
+
+while replay == True:
+
+    count = 1
+    ans = random.randint(1,100)
+    response = int(input("Guess a number, between 1 and 100 inclusive:"))
+
+
+    while True:
+        response = int(input("Guess a number, between 1 and 100 inclusive:"))
+
+        if response == ans:
+            print("you are right!"+" you have tried for", count, "times")
+            rep = int(input("Do you want to replay? If you want, press 1 to continue"))
+            if rep != 1:
+                replay = False
+            break
+
+        else:
+            if response > ans:
+                        print("Too high") 
+            else:
+                        print("Too low")    
+            count += 1
                                                 
