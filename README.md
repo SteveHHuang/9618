@@ -6,4 +6,4 @@
 
 [pastpapers](https://github.com/SteveHHuang/9618/tree/main/pastpapers)
 
-[pseudocode](https://github.com/iewnfod/CAIE_Code)
+[pseudocode extension](https://github.com/iewnfod/CAIE_Code)
