@@ -52,7 +52,6 @@ while replay == True:
     ans = random.randint(1,100)
     response = int(input("Guess a number, between 1 and 100 inclusive:"))
 
-
     while True:
         response = int(input("Guess a number, between 1 and 100 inclusive:"))
 
