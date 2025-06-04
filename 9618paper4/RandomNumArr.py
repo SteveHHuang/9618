@@ -12,10 +12,9 @@ for num in arr:
     count +=1
     if count %10 == 0:
         print()
-    
-    
+        
+          
 # bubble sort        
-
 for j in range(999, 0, -1):
     for k in range (j):
         if arr[k+1] < arr[k]:
