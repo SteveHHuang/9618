@@ -8,12 +8,13 @@ j = 1000
 
 for i in range(j):
     arr.append(random.randint(1,1000))
+
     
 for num in arr:
     print(num, end=" ")
     count +=1
     if count %10 == 0:
-        print()
+        print() # 换行
         
           
 # bubble sort        
