@@ -1,3 +1,4 @@
+#20250609
 import random
 import printdata as pd
 #randomly select ball from two different boxes 
@@ -44,7 +45,7 @@ def countprobability(resultarr):
     return countRBorBR,countBB,countRR
 
 
-for q in range(5000):
+for q in range(50000): #计多次取平均
     resultbox1,resultbox2 = generateBallBox()
     result = pickup(resultbox1,resultbox2)
     temprborbr,tempbb,temprr = countprobability(result) #用逗号来分别把返回值赋给不同的变量
@@ -52,9 +53,9 @@ for q in range(5000):
     sumbb +=tempbb
     sumrr +=temprr
 
-avgrborbr = sumrborbr/5000
-avgbb = sumbb/5000
-avgrr = sumrr/5000
+avgrborbr = sumrborbr/50000
+avgbb = sumbb/50000
+avgrr = sumrr/50000
 
 print(avgrborbr)
 print(avgbb)
