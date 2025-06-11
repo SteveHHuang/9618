@@ -1,4 +1,4 @@
-# 9618 CIE ALEVEL COMPUTER SCIENCE
+# Cambridge International AS & A Level Computer Science 9618
 
 记录自己学习9618的全过程
 
@@ -7,3 +7,5 @@
 [pastpapers](https://github.com/SteveHHuang/9618/tree/main/pastpapers)
 
 [pseudocode extension](https://github.com/iewnfod/CAIE_Code)
+
+[Paper4 intruduction](https://github.com/SteveHHuang/9618/blob/main/Paper4Intro.md)
