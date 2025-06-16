@@ -5,7 +5,6 @@ import random
 #Step1: initialise a 2D array to implement linked list, 10rows, 2 columns
 LinkedList = [[0, i] for i in range(1,11)]
 LinkedList[9][1] = -1
-print(LinkedList)
 # print(LinkedList)
 
 # Step2: Initialize headpointer, freeptr
