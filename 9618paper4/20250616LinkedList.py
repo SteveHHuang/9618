@@ -9,7 +9,6 @@ print(LinkedList)
 # print(LinkedList)
 
 # Step2: Initialize headpointer, freeptr
-
 headptr = -1 # headptr always point to the address of the first used node
 freeptr = 0 # freeptr always point to the address of first free space
 
