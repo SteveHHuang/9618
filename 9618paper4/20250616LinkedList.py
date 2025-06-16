@@ -11,7 +11,7 @@ print(LinkedList)
 # Step2: Initialize headpointer, freeptr
 
 headptr = -1 # headptr always point to the address of the first used node
-freeptr = 0 # freeptr always point to the first free space
+freeptr = 0 # freeptr always point to the address of first free space
 
 # Step3: Adding value
 def addData(val):
