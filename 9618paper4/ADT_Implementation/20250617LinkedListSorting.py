@@ -35,12 +35,17 @@ def addDatainSeq(val):
         LinkedList[temp][1] = headptr
         headptr = temp
     else:
-        nextAddressToAdd = headptr
-        while LinkedList[nextAddressToAdd][0] >= val and LinkedList[nextPlaceToAdd][1] != -1:
-            nextAddressToAdd = LinkedList[nextAddressToAdd][1]  
-        LinkedList[nextPlaceToAdd][1] = temp
-        LinkedList[temp][1] = -1
-    
+        nextPlaceToAdd = headptr
+        while LinkedList[nextPlaceToAdd][1] != -1 and LinkedList[nextPlaceToAdd][0] >= val:
+            nextPlaceToAdd = LinkedList[nextPlaceToAdd][1]
+            if LinkedList[nextPlaceToAdd][0] == 0:
+                break 
+        temp2 = nextPlaceToAdd
+        LinkedList[nextPlaceToAdd][1] = LinkedList[temp][1]
+        LinkedList[temp2][1] = temp
+        
+
+
 
 for i in range(10):         
     addDatainSeq(random.randint(1,1000))
