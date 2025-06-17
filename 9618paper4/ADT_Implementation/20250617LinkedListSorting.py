@@ -12,7 +12,7 @@ headptr = -1 # headptr always point to the address of the first used node
 freeptr = 0 # freeptr always point to the address of first free space
 
 # Step3: Adding value
-def addData(val):
+def addDatainSeq(val):
     global headptr, freeptr, LinkedList
     if freeptr == -1:
         return "no space"
@@ -31,18 +31,19 @@ def addData(val):
     freeptr = LinkedList[freeptr][1]
     # LinkedList[nextPlaceToAdd][1] = temp # -1 to temp
     LinkedList[temp][0] = val
-    if LinkedList[temp][0] <= LinkedList[headptr][0]:
+    if LinkedList[temp][0] >= LinkedList[headptr][0]:
         LinkedList[temp][1] = headptr
         headptr = temp
     else:
-        
-        LinkedList[temp][1] = -1    
-        
-    
+        nextAddressToAdd = headptr
+        while LinkedList[nextAddressToAdd][0] >= val and LinkedList[nextPlaceToAdd][1] != -1:
+            nextAddressToAdd = LinkedList[nextAddressToAdd][1]  
+        LinkedList[nextPlaceToAdd][1] = temp
+        LinkedList[temp][1] = -1
     
 
 for i in range(10):         
-    addData(random.randint(1,1000))
+    addDatainSeq(random.randint(1,1000))
     # addData(19)
     print(LinkedList)
    
