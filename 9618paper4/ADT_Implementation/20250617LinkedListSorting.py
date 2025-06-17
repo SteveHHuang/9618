@@ -12,8 +12,7 @@ headptr = -1 # headptr always point to the address of the first used node
 freeptr = 0 # freeptr always point to the address of first free space
 
 # Step3: Adding value
-# Descending order
-def addDatainSeq(val): 
+def addDatainSeq(val): # In descending order
     global headptr, freeptr, LinkedList
     if freeptr == -1:
         return "no space"
@@ -24,26 +23,29 @@ def addDatainSeq(val):
         LinkedList[headptr][0] = val
         LinkedList[headptr][1] = -1 # 添加第一个数据的时候 因为后面没有数据 所以第一个node的ptr是-1
         return "successfully added"
-         
+          
     temp = freeptr # address of the new node
     freeptr = LinkedList[freeptr][1]
     # LinkedList[nextPlaceToAdd][1] = temp # -1 to temp
     LinkedList[temp][0] = val
+    
     if LinkedList[temp][0] >= LinkedList[headptr][0]:
         LinkedList[temp][1] = headptr
         headptr = temp
-    else:
-        nextPlaceToAdd = headptr
-        while LinkedList[nextPlaceToAdd][1] != -1 and LinkedList[nextPlaceToAdd][0] >= val:
-            nextPlaceToAdd = LinkedList[nextPlaceToAdd][1]
-            if LinkedList[LinkedList[nextPlaceToAdd][1]][0] == 0:
-                break 
-        temp2 = nextPlaceToAdd
-        LinkedList[nextPlaceToAdd][1] = LinkedList[temp][1]
-        LinkedList[temp2][1] = temp
+        return "successfully added"
+
+    nextPlaceToAdd = headptr
+    
+    while LinkedList[nextPlaceToAdd][1] != -1 and LinkedList[LinkedList[nextPlaceToAdd][1]][0] >= val:
+        nextPlaceToAdd = LinkedList[nextPlaceToAdd][1]
+        
+    LinkedList[temp][1] = LinkedList[nextPlaceToAdd][1] # 插入新节点
+    LinkedList[nextPlaceToAdd][1] = temp
+    return "successfully added"
+        
         
 
-
+                  
 
 for i in range(10):         
     addDatainSeq(random.randint(1,1000))
