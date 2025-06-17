@@ -12,7 +12,8 @@ headptr = -1 # headptr always point to the address of the first used node
 freeptr = 0 # freeptr always point to the address of first free space
 
 # Step3: Adding value
-def addDatainSeq(val):
+#Descendign order
+def addDatainSeq(val): 
     global headptr, freeptr, LinkedList
     if freeptr == -1:
         return "no space"
