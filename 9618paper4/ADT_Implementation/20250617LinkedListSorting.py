@@ -23,10 +23,7 @@ def addDatainSeq(val):
         LinkedList[headptr][0] = val
         LinkedList[headptr][1] = -1 # 添加第一个数据的时候 因为后面没有数据 所以第一个node的ptr是-1
         return "successfully added"
-        
-    nextPlaceToAdd = headptr
-    while LinkedList[nextPlaceToAdd][1] != -1:
-        nextPlaceToAdd = LinkedList[nextPlaceToAdd][1]    
+         
     temp = freeptr # address of the new node
     freeptr = LinkedList[freeptr][1]
     # LinkedList[nextPlaceToAdd][1] = temp # -1 to temp
@@ -38,7 +35,7 @@ def addDatainSeq(val):
         nextPlaceToAdd = headptr
         while LinkedList[nextPlaceToAdd][1] != -1 and LinkedList[nextPlaceToAdd][0] >= val:
             nextPlaceToAdd = LinkedList[nextPlaceToAdd][1]
-            if LinkedList[nextPlaceToAdd][0] == 0:
+            if LinkedList[LinkedList[nextPlaceToAdd][1]][0] == 0:
                 break 
         temp2 = nextPlaceToAdd
         LinkedList[nextPlaceToAdd][1] = LinkedList[temp][1]
