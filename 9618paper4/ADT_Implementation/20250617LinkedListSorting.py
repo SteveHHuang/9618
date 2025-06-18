@@ -44,9 +44,7 @@ def addDatainSeq(val): # In descending order
     return "successfully added"
         
         
-
-                  
-
+        
 for i in range(10):         
     addDatainSeq(random.randint(1,1000))
     # addData(19)
