@@ -36,13 +36,16 @@ def Pop():
     global StackPointer, StackData
     if StackPointer < 0:
         return -1
+    temp = StackData[StackPointer-1]
     StackData[StackPointer-1] = 0
     StackPointer -= 1
-    return StackData[StackPointer-1]
+    return temp
 
 for i in range(2):
-    Pop()
+    print(Pop())
     
     
 print(StackData)
     
+    
+                                           

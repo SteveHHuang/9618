@@ -7,7 +7,6 @@ StackData = [0 for i in range(10)]
 StackPointer = 0 
 # StackPointer points to the next available space in the stack. 
 # It is initialised to 0. 
-  
 
 def outputElements(): #1b
     global StackData,StackPointer
@@ -39,13 +38,16 @@ def Pop():
     global StackPointer, StackData
     if StackPointer < 0:
         return -1
+    temp = StackData[StackPointer-1]
     StackData[StackPointer-1] = 0
     StackPointer -= 1
-    return StackData[StackPointer-1]
+    return temp
 
 for i in range(2):
-    Pop()
+    print(Pop())
     
     
 print(StackData)
     
+    
+                                           
