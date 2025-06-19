@@ -17,7 +17,7 @@ def generateBallBox():
     for j in range(50):
         box1.append('B')
         box2.append('B')
-    random.shuffle(box1)
+    random.shuffle(box1) # .shuffle()用来打乱数组顺序
     random.shuffle(box2)
     return box1,box2
 

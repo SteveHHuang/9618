@@ -18,8 +18,7 @@ def outputElements(): #1b
 def Push(num): #1c
     global StackPointer, StackData
     if StackPointer > 9:
-        return False
-    
+        return False    
     StackData[StackPointer] = num
     StackPointer += 1
     return True
@@ -38,9 +37,10 @@ def Pop():
     global StackPointer, StackData
     if StackPointer < 0:
         return -1
-    temp = StackData[StackPointer-1]
-    StackData[StackPointer-1] = 0
     StackPointer -= 1
+    temp = StackData[StackPointer].copy()
+    StackData[StackPointer] = 0
+    
     return temp
 
 for i in range(2):
