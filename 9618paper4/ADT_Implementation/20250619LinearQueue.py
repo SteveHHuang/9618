@@ -32,6 +32,5 @@ for j in range(11):
     print(dequeue())
     print(Tailptr)
 
-
 print(queue)
 
