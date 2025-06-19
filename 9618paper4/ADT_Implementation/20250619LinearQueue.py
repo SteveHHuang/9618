@@ -1,23 +1,22 @@
 # 20250619 
-# Implement queue using array
+# Implement linear queue using array
 
-queue = [i for i in range(10)]
+queue = ['*' for i in range(10)]
 Headptr = 0
-Tailptr = queue[len(queue)-1]
+Tailptr = 0
 
 def dequeue():
     global Headptr, Tailptr
-    if Headptr > Tailptr:
-        Headptr = Tailptr
+    if Headptr == Tailptr:
         return "This queue is empty" 
         
-    queue[Headptr] = '*'
+    # queue[Headptr] = '*'
     Headptr += 1
     return "Successfully deleted"
     
 def enqueue(num):
     global Tailptr
-    if Tailptr > len(queue)-1:
+    if Tailptr == len(queue):
         return "This queue is full" 
     
     queue[Tailptr] = num
@@ -26,8 +25,13 @@ def enqueue(num):
     
 
 for i in range(11):
+    print(enqueue(i))
+    print(Tailptr)
+    
+for j in range(11):
     print(dequeue())
-    print(Headptr)
+    print(Tailptr)
+
 
 print(queue)
 
