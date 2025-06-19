@@ -10,14 +10,15 @@ def dequeue():
     global Headptr, Tailptr, count
     if Headptr == Tailptr and count == 0:
         return "This queue is empty" 
-        
+    
+    value = queue[Headptr]    
     queue[Headptr] = '*'
     Headptr += 1
     count -=1
     if Headptr == 10:
         Headptr = 0
-    
-    return "Successfully deleted"
+    print("Successfully deleted")
+    return value
     
 def enqueue(num):
     global Tailptr, Headptr, count
