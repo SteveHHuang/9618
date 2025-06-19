@@ -4,36 +4,41 @@
 queue = ['*' for i in range(10)]
 Headptr = 0
 Tailptr = 0
-enqueued = False
+count = 0
 
 def dequeue():
-    global Headptr, Tailptr
-    if Headptr == Tailptr:
+    global Headptr, Tailptr, count
+    if Headptr == Tailptr and count == 0:
         return "This queue is empty" 
         
     queue[Headptr] = '*'
     Headptr += 1
+    count -=1
     if Headptr == 10:
         Headptr = 0
     
     return "Successfully deleted"
     
 def enqueue(num):
-    global Tailptr, Headptr, enqueued
-    
-    if enqueued == True:
-        if Headptr == Tailptr:
-            return "This queue is full" 
+    global Tailptr, Headptr, count
+    if Headptr == Tailptr and count == len(queue):
+        return "This queue is full" 
     
     queue[Tailptr] = num
     Tailptr +=1
+    count +=1
     if Tailptr == 10:
         Tailptr = 0
-    enqueued = True
         
     return "Successfully added"
     
-
+for i in range(11):
+    print(enqueue(i))
+    print(Tailptr)
+    
+for j in range(6):
+    print(dequeue())
+    print(Tailptr)
 
 print(queue)
 
