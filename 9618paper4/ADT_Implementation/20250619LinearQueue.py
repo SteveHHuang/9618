@@ -9,15 +9,18 @@ def dequeue():
     global Headptr, Tailptr
     if Headptr == Tailptr:
         return "This queue is empty" 
-        
-    # queue[Headptr] = '*'
+    
+    value = queue[Headptr]    
+    queue[Headptr] = '*'
     Headptr += 1
-    return "Successfully deleted"
+    print("Successfully deleted")
+    return value
     
 def enqueue(num):
     global Tailptr
     if Tailptr == len(queue):
         return "This queue is full" 
+    
     
     queue[Tailptr] = num
     Tailptr +=1
