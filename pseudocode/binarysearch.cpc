@@ -1,0 +1,37 @@
+DECLARE Lower : INTEGER
+DECLARE Upper : INTEGER
+DECLARE Mid : INTEGER
+DECLARE Exit : BOOLEAN
+DECLARE Names : ARRAY[0:99] OF STRING
+
+Lower <- 0
+Upper <- 99
+Mid <- 0
+Exit <- FALSE
+
+FOR i <- 1 TO 10
+    Names[i] <- CHR(i+66)
+
+OUTPUT "Enter the name to be found "
+INPUT Target
+REPEAT
+    IF Lower>Upper THEN
+        OUTPUT Target, " does not exist"
+        Exit <- TRUE
+    ENDIF
+
+    Mid <- Lower+(Upper-Lower+1) DIV 2
+    IF Names[Mid] < Target THEN
+        Upper <- Mid-1
+    ENDIF
+
+    IF Names[Mid] > Target THEN
+        Lower <- Mid+1
+    ENDIF
+
+    IF Names[Mid] = Target THEN
+        OUTPUT Target, " was found!"
+        Exit <- TRUE
+    ENDIF
+    
+UNTIL Exit = TRUE
