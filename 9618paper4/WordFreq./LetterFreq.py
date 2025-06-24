@@ -10,16 +10,16 @@ dictLetter ={}
 for char in string.ascii_lowercase:
     dictLetter[char] = 0
 
-
-
-with open("/Users/hehuang/Documents/GitHub/9618/9618paper4/WordFreq./satReading.txt", encoding = "utf-8" ) as Reading:
+with open("/Users/hehuang/Documents/GitHub/9618/9618paper4/WordFreq./satReading.txt") as Reading:
     content = Reading.read()
 
 print(content)
     
         
 for temp in content:
+    print(temp.lower() in dictLetter)
     if temp.lower() in dictLetter:
+        
         dictLetter[temp.lower()] += 1
         
 print(dictLetter)
@@ -30,3 +30,4 @@ LetterFre = sorted(dictLetter.items(), key = lambda x:x[1], reverse=True)
 # False: ascending order
 
 print(LetterFre)
+
