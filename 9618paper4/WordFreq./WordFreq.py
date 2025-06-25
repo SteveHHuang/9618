@@ -16,7 +16,9 @@ content = content.lower().split()
 
 for i in range(len(content)):
     dictWord[content[i]] = dictWord.get(content[i],0)+1
-    # 得到contenr[i]这个键的值，如果没有的话初始化为0 
+    # dictWord.get(content[i],0): 得到content[i]这个键的值，如果没有的话初始化为0 
+    
+    # ALT:
     # for word in content1:
     #     if word in dictWord:
     #         dictWord[word] +=1

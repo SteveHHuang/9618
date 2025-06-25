@@ -38,7 +38,7 @@ def Pop():
     if StackPointer < 0:
         return -1
     StackPointer -= 1
-    temp = StackData[StackPointer].copy()
+    temp = StackData[StackPointer]
     StackData[StackPointer] = 0
     
     return temp

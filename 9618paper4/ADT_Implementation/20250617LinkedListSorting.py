@@ -58,6 +58,6 @@ def searchNum(num, arr):
         return -1
 
 
-# print(LinkedList)    
+print(LinkedList)    
 # print(searchNum(228, LinkedList))
    
