@@ -1,26 +1,31 @@
-# In 9618 paper4, internet access and references are NOT allowed
 
-# -Comment of any variables is **significant**
+# *In 9618 paper4, internet access and references are NOT allowed
 
-# -1D and 2D array, declaration, common operation and algorithms
+# *Comment of any variables is **significant**
 
-# -common opeations: 
-i. basics: data types, vars, expression, program constucts
 
-ii. implement ADT by using arrays or with objects
+# 1D and 2D array, declaration, common operation and algorithms
 
-# recursion
 
-# searching
-i. linear search
+# Common operations: 
+	i. basics: data types, vars, expression, basic constucts(i.e. sequence, selection, iteration)
 
-ii. binary search
+	ii. implement ADTs(queue, stack and linked list) by using arrays or with objects
 
-# sorting
-i. bubble sort
+# Recursion
 
-ii. insertion sort
 
-# classes and objects
+# Searching
+	i. linear search
 
-# binary tree
+	ii. binary search
+
+# Sorting algorithms
+	i. bubble sort
+
+	ii. insertion sort
+
+# classes and objects(OOP)
+
+
+# Binary tree
