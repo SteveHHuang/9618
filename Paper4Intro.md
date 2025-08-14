@@ -10,7 +10,7 @@
 # Common operations: 
 	i. basics: data types, vars, expression, basic constucts(i.e. sequence, selection, iteration)
 
-	ii. implement ADTs(queue, stack, linked list and binary tree) by using arrays or with objects
+	ii. implement ADTs: queue, stack, linked list and binary tree, by using arrays or with objects
 
 # Recursion
 
