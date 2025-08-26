@@ -4,7 +4,7 @@ import random
 
 #Step1: initialise a 2D array to implement linked list, 10rows, 2 columns
 LinkedList = [[0, i] for i in range(1,11)]
-LinkedList[9][1] = -1
+LinkedList[len(LinkedList)-1][1] = -1
 # print(LinkedList)
 
 # Step2: Initialize headpointer, freeptr
@@ -35,14 +35,15 @@ def addData(val):
     LinkedList[temp][1] = -1
     
 
-for i in range(10):         
+for i in range(12):         
     # addData(random.randint(1,1000))
-    addData(19)
+    a = addData(19)
+    print(a)
     print(LinkedList)
    
    
 def searchNum(num, arr):  
-    for j in range (10):
+    for j in range (len(LinkedList)):
         if arr[j][0] == num:
             return j
         return -1

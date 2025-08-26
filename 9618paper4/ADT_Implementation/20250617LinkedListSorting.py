@@ -4,7 +4,7 @@ import random
 
 #Step1: initialise a 2D array to implement linked list, 10rows, 2 columns
 LinkedList = [[0, i] for i in range(1,11)]
-LinkedList[9][1] = -1
+LinkedList[len(LinkedList)-1][1] = -1
 # print(LinkedList)
 
 # Step2: Initialize headpointer, freeptr
@@ -45,7 +45,7 @@ def addDatainSeq(val): # In descending order
         
         
         
-for i in range(10):         
+for i in range(len(LinkedList)-1):         
     addDatainSeq(random.randint(1,1000))
     # addData(19)
     print(LinkedList)

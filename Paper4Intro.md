@@ -1,7 +1,7 @@
 
-# *In 9618 paper4, internet access and references are NOT allowed
+ *In 9618 paper4, internet access and references are NOT allowed
 
-# *Comment of any variables is **significant**
+ *Comment of any variables is **significant**
 
 
 # 1D and 2D array, declaration, common operation and algorithms
@@ -28,4 +28,4 @@
 # Classes and objects(OOP)
 
 
-# File handling& Exception handling
+# File handling & Exception handling
