@@ -27,3 +27,4 @@ plt.axvline(x=0, color='green', linestyle=':', alpha=0.5)  # y轴参考线
 plt.axhline(y=0, color='green', linestyle=':', alpha=0.5)  # x轴参考线
 plt.legend()
 plt.show()
+
