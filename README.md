@@ -2,11 +2,12 @@
 
 记录自己学习9618的全过程
 
-[more information about 9618](https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-international-as-and-a-level-computer-science-9618/)
+[More information about 9618](https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-international-as-and-a-level-computer-science-9618/)
 
-[pastpapers](https://github.com/SteveHHuang/9618/tree/main/pastpapers)
+[Pastpapers](https://github.com/SteveHHuang/9618/tree/main/pastpapers)
 
-[pseudocode extension](https://github.com/iewnfod/CAIE_Code)
+[Pseudocode extension](https://github.com/iewnfod/CAIE_Code)
 
+[[Paper4_Intro]]
 
-[Paper4 introduction](https://github.com/SteveHHuang/9618/blob/main/Paper4_Intro.md)
+[[The techniques of structured English]]
