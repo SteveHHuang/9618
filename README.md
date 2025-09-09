@@ -8,8 +8,5 @@
 
 [pseudocode extension](https://github.com/iewnfod/CAIE_Code)
 
-<<<<<<< HEAD
+
 [Paper4 introduction](https://github.com/SteveHHuang/9618/blob/main/Paper4_Intro.md)
-=======
-[Paper4 introduction](https://github.com/SteveHHuang/9618/blob/main/Paper4Intro.md)
->>>>>>> b7387675cf92d8089c7efa1046369bd497afde51
