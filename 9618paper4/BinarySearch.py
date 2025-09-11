@@ -21,4 +21,8 @@ def binarysearch(num):
             lower = mid + 1    
     return False
 
-print(binarysearch(2))        
+
+if __name__ == "__main__":
+    print(binarysearch(2))
+    
+            
