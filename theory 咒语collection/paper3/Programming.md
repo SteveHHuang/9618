@@ -18,3 +18,7 @@
 	- Enables unwinding 
 	- ... to maintain the required order.
 
+## Explain why the properties are private.[2] w18 41 Q5a
+	- To restrict direct access to the property to the class 
+	- To make the program easier to debug 
+	- To ensure data going in is valid
