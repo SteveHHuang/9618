@@ -13,18 +13,22 @@ def Enqueue(num):
     temp = NumberItems
     
     NumberItems+=1
-    Queue[NumberItems-1] = num
+    
     
     if TailPointer == len(Queue)-1:
         TailPointer = 0    
         
     else: 
         TailPointer +=1
+        
+    Queue[TailPointer] = num
     
     if temp == 0:
         HeadPointer = TailPointer
     
     return True
+    
+
     
 for i in range(1, 26):
     if Enqueue(i): print(f"{i} Successful")
@@ -35,7 +39,7 @@ def Dequeue():
     global Queue, HeadPointer, TailPointer, NumberItems
     if NumberItems == 0: return -1
     
-    data = Queue[NumberItems-1]
+    data = Queue[HeadPointer]
     NumberItems -=1
     
     if HeadPointer == len(Queue)-1:
@@ -44,6 +48,7 @@ def Dequeue():
         HeadPointer +=1
     
     return data
+    
 
 print(Dequeue())
 print(Dequeue())

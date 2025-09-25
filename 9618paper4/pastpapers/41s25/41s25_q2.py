@@ -71,23 +71,25 @@ def SplitData(DataArray):
         temparr = temp.split(',')
         if temparr[1] == "red":
             red.append(int(temparr[0]))
-            StoreData(red, "Red.txt")
         elif temparr[1] == "green":
             green.append(int(temparr[0]))
-            StoreData(green, "Green.txt")
+            
         elif temparr[1] == "blue":
             blue.append(int(temparr[0]))
-            StoreData(blue, "Blue.txt")
         elif temparr[1] == "orange":
             orange.append(int(temparr[0]))
-            StoreData(orange, "Orange.txt")
+            
         elif temparr[1] == "yellow":
             yellow.append(int(temparr[0]))
-            StoreData(yellow, "Yellow.txt")
         elif temparr[1] == "pink":
             pink.append(int(temparr[0]))
-            StoreData(pink, "Pink.txt")
-            
+        
+    StoreData(red, "Red.txt")
+    StoreData(green, "Green.txt")
+    StoreData(blue, "Blue.txt")
+    StoreData(orange, "Orange.txt")
+    StoreData(yellow, "Yellow.txt")
+    StoreData(pink, "Pink.txt")
 
 
 arr = ReadData()
