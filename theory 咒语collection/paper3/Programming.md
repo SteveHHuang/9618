@@ -22,3 +22,14 @@
 	- To restrict direct access to the property to the class 
 	- To make the program easier to debug 
 	- To ensure data going in is valid// To prevent accidental changes
+
+
+## OOP terms definitions. s23 32 Q4, w22 32 Q10a
+
+| OOP term      | Description                                                               |
+| ------------- | ------------------------------------------------------------------------- |
+| Encapsulation | The process of putting all the data and methods together as a single unit |
+| Getter        | Methods used to return the value of the property                          |
+| Setter        | Methods used to update the value of the property                          |
+| Polymorphism  | Allow methods to be redefined for derived classes                         |
+| Inheritance   | Enables the defining a new class that inherits from a patent class        |
