@@ -10,4 +10,4 @@
 
 [Contents of paper4](https://github.com/SteveHHuang/9618/tree/main/Paper4_contents)
 
-[[Techniques-of-structured-English]]](https://github.com/SteveHHuang/9618/tree/main/Techniques-of-structured-English)
+[Techniques-of-structured-English](https://github.com/SteveHHuang/9618/tree/main/Techniques-of-structured-English)
