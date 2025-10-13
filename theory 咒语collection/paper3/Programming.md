@@ -33,3 +33,5 @@
 | Setter        | Methods used to update the value of the property                          |
 | Polymorphism  | Allow methods to be redefined for derived classes                         |
 | Inheritance   | Enables the defining a new class that inherits from a patent class        |
+## Define the term exception handling[1] w23 31
+	Responding to an unexpected event when the program is running so it does not halt unexpectly
