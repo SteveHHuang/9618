@@ -1,3 +1,4 @@
+# hash table simulation
 import random
 
 OpenHashTable = [None for _ in range(2000)]
