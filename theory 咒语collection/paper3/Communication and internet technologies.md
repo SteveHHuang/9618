@@ -17,7 +17,9 @@
 
 ## POP3, IMAP & SMTP
 **前两个用于接收邮件。**
+
 **SMTP(Simple Mail Transfer Protocol)用于发送邮件。**
+
 **POP3（Post Office Protocol 3）不会储存在服务器中，而IMAP（Internet Message Access Protocol）会。**
 
 ### Describe the purpose of the IMAP protocol.[2] w22 32
