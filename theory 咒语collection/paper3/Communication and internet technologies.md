@@ -15,7 +15,7 @@
 ## FTP
 
 
-## POP3, IMAP & SMTP
+## Email protocols: POP3, IMAP & SMTP
 **前两个用于接收邮件。**
 
 **SMTP(Simple Mail Transfer Protocol)用于发送邮件。**
@@ -27,35 +27,29 @@
 	• from a mail server (over a TCP/IP connection) 
 	• keeps the server and client in sync (by not deleting the original email). 
 
-### 
+ 
 
 ## BitTorrent
 ### State the use of BitTorrent[1]
-	*File sharing.*
+	File sharing.
 
-Tracker
+### Tracker
 	Stores details of other computer.
 
-Swarm 
+### Swarm 
 	Connected peers (clients) that share a tracker. 
 
-Seed 
+### Seed 
 	Peer computer that has 100% of file.
 
-Leech
-	a peer with negative feedback from swarm members. 
+### Leech
+	A peer with negative feedback from swarm members. 
 
-Lurker
+### Lurker
 	User/client that downloads files but does not supply any new content to the community.
 
 
 ### Pros and Cons
-
-#### Pros
-	
-#### Cons
-	i.
-	ii.
 
 
 ## Circuit switching & Packet switching
@@ -68,10 +62,10 @@ Lurker
 	- data is transferred using the whole bandwidth 
 	- all data is transferred over the same route
 
-**Pros:**
+##### Pros:
 	– Data arrive in order and do not need to be reassembled
 
-**Cons:**
+##### Cons:
 	- Nobody else can use the same circuit even if it is idle 
 	- Less secure as only one route used
 
@@ -82,9 +76,9 @@ Lurker
 	- the routing for a packet depends on the congestion 
 	- packets may not arrive in the order sent
 
-**Pros:**
+##### Pros:
 	- Packets can be rerouted if there are problems
 	- More secure as harder to intercept messages
 
-**Cons:**
+##### Cons:
 	- Time taken to reassemble packets at the destination
