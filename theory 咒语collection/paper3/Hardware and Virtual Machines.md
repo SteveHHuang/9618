@@ -1,7 +1,7 @@
 ## Processors
 ### CISC & RISC
 ### Describe what is meant by RISC and CISC processors. s22 31 Q4a
-#### CISC
+#### RISC
 	- Uses simple instructions 
 	- Uses fixed length instructions 
 	- Instructions only require one clock cycle 
@@ -9,7 +9,7 @@
 	- Makes use of pipelining 
 	- Hardwired CU
 
-#### RISC
+#### CISC
 	- Uses many instruction formats 
 	- Uses variable length instructions 
 	- Makes use of different addressing modes 
