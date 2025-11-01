@@ -1,6 +1,7 @@
 ## Processors
 ### CISC & RISC
-### Describe what is meant by RISC and CISC processors. s22 31 Q4a
+### Describe what is meant by RISC and CISC processors. 
+>s22 31 Q4a
 #### RISC
 	- Uses simple instructions 
 	- Uses fixed length instructions 
@@ -21,7 +22,9 @@
 	- Programmable CU
 
 
-### Identify two differences between RISC and CISC processors. s22 31 Q4b
+### Identify two differences between RISC and CISC processors. 
+>s22 31 Q4b
+
 	- RISC has fewer instructions, while CISC has more instructions 
 	- RISC has many registers, whereas CISC has few registers 
 	- RISC’s instructions are simpler, whilst CISC’s instructions are more complex 
@@ -49,7 +52,7 @@ Problems:
 
 ### Interrupt handling
 
-*CISC更容易实现
+>CISC更容易实现
 
 ### Basic Computer Architectures - Flynn’s Taxonomy 弗林分类法
 **四种并行处理类别**
@@ -59,33 +62,37 @@ s22 31 Q4a
 	Uses one processor execute single instruction using one data set(1)
 	
 
-*单核 CPU*
+>单核 CPU
 
 #### SIMD single instruction multiple data
 	Uses many processors execute the same instruction using different data sets (1)
 	
 
-*GPU图像处理*
+>GPU图像处理
 
 #### MISD multiple instruction single data
 	Many processors (using different instructions) use the same data set (1)
 
-*飞控*
+>飞控
 
 #### MIMD multiple instruction multiple data
 	Many processors (using different instructions) using different data sets (1)
 
-*多核 CPU / 多路 CPU*
-*会涉及操作系统的management*
+>多核 CPU / 多路 CPU
+>会涉及操作系统的management
 
 ## Virtual Machine
 
-### The virtual machine software undertakes many tasks. Describe two of these tasks. 9608 s16 33 Q3
+### The virtual machine software undertakes many tasks. Describe two of these tasks. 
+>9608 s16 33 Q3
+
 	- Create / delete virtual machine 
 	- Hardware emulation 
 	- Ensures each virtual machine is protected from actions of another virtual machine
 
-### Explain the difference between a guest operating system and a host operating system. 9608 s16 33 Q3
+### Explain the difference between a guest operating system and a host operating system. 
+>9608 s16 33 Q3
+
 	Guest OS is running under the Host OS software
 
 #### Guest operating system:
@@ -98,7 +105,10 @@ s22 31 Q4a
 	- The operating system for the physical machine
 	- The OS running the VM software 
 
-### Explain one limitation of VM 9608 s16 33 Q3(modified)
+### Explain one limitation of VM 
+
+>9608 s16 33 Q3(modified)
+
 	- Using virtual machine means emulation of some hardware …
 	- Particular hardware may be difficult to emulate
 	- Non-VM installation may not perform in the same way
