@@ -1,5 +1,5 @@
-## Processors
-### CISC & RISC
+# Processors
+## CISC & RISC
 ### Describe what is meant by RISC and CISC processors. 
 >s22 31 Q4a
 #### RISC
@@ -81,7 +81,7 @@ s22 31 Q4a
 >多核 CPU / 多路 CPU
 >会涉及操作系统的management
 
-## Virtual Machine
+# Virtual Machine
 
 ### The virtual machine software undertakes many tasks. Describe two of these tasks. 
 >9608 s16 33 Q3
