@@ -59,24 +59,24 @@ Problems:
 
 s22 31 Q4a
 #### SISD single instruction single data
-	Uses one processor execute single instruction using one data set(1)
+	Uses one processor execute single instruction using one data set
 	
 
 >单核 CPU
 
 #### SIMD single instruction multiple data
-	Uses many processors execute the same instruction using different data sets (1)
+	Uses many processors execute the same instruction using different data sets 
 	
 
 >GPU图像处理
 
 #### MISD multiple instruction single data
-	Many processors (using different instructions) use the same data set (1)
+	Many processors (using different instructions) use the same data set 
 
 >飞控
 
 #### MIMD multiple instruction multiple data
-	Many processors (using different instructions) using different data sets (1)
+	Many processors (using different instructions) using different data sets
 
 >多核 CPU / 多路 CPU
 >会涉及操作系统的management
