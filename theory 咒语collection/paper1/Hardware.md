@@ -1,6 +1,0 @@
-Hardware
-
-Explain 
-
-
-

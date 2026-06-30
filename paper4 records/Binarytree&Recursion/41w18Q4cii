@@ -1,0 +1,13 @@
+def Calculate(Number):
+    if Number==0:
+        return -10
+    else: return (Number)*(Calculate(Number-1))
+    
+def IterativeCalculate(Number):
+    result=-10
+    while Number>0:
+        result*=Number
+        Number-=1
+    return result
+print(IterativeCalculate(3))
+print(Calculate(3))

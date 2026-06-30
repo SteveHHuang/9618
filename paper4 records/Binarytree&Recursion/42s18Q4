@@ -1,0 +1,31 @@
+import datetime
+class Member:
+    def __init__(self,fName,lName,DOB,Gender):
+        self.FirstName=fName
+        self.LastName=lName
+        self.DateOfBirth=DOB
+        self.Gender=Gender
+        
+    def Introduction(self):
+        print(f"Hello, I'm {self.FirstName} {self.LastName}")
+        
+    def DisplayFullnameAndDateOfBirth(self):
+        print(f"{self.FirstName} {self.LastName} {self.DateOfBirth}")
+        
+class Competitor(Member):
+    def __init__(self,fName,lName,DOB,Gender,Sport):
+        super().__init__(fName,lName,DOB,Gender)
+        self.Sport=Sport
+        
+    def Introduction(self):
+        print(f"Hello, I'm {self.FirstName} {self.LastName} and my sport is {self.Sport}.")
+        
+class Official(Member):
+    def __init__(self,fName,lName,DOB,Gender,JobTitle,FirstAidTrained): 
+        super().__init__(fName,lName,DOB,Gender)
+        self.JobTitle=JobTitle
+        self.FirstAidTrained=FirstAidTrained
+    def DisplayJobTitle(self):
+        print(f"{self.JobTitle}")
+
+BMXJudge=Official("Omar","Ellaboudy",17/03/1993,"Judge",True)
