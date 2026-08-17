@@ -2,7 +2,7 @@
 
 ~~记录自己学习9618的全过程~~
 
-202608更新: 骗你的其实3个月前就考完最后的A2了
+20260817更新: 骗你的其实3个月前就考完最后的A2了
 
 [More information about 9618](https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-international-as-and-a-level-computer-science-9618/)
 
