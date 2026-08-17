@@ -4,7 +4,7 @@
 
 [More information about 9618](https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-international-as-and-a-level-computer-science-9618/)
 
-[Pastpapers](https://github.com/SteveHHuang/9618/tree/main/pastpapers)
+[Pastpapers](https://www.exam-easy.com/past-papers/cie/a-level/9618/)
 
 [Pseudocode extension](https://github.com/iewnfod/CAIE_Code)
 

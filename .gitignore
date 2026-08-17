@@ -2,19 +2,12 @@
 /.vscode
 .DS_Store
 
-9618paper4/temp.py
 9618paper4/__pycache__
 
 
-9618paper4/temp.ipynb
-
-~$idence_ CN257_1867.doc
-~$idence_CN257_1867.doc
-~$idence_cn257_1867.doc
+*.doc
 
 /.obsidian
 *.json
-9618paper4/sorting_template.ipynb
-temp.py
-temp.ipynb
+
 /test
