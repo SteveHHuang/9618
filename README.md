@@ -8,6 +8,6 @@
 
 [Pseudocode extension](https://github.com/iewnfod/CAIE_Code)
 
-[Contents of paper4](https://github.com/SteveHHuang/9618/tree/main/Paper4_contents)
+[Contents of paper4](https://github.com/SteveHHuang/9618/tree/main/Paper4_contents.md)
 
-[Techniques-of-structured-English](https://github.com/SteveHHuang/9618/tree/main/Techniques-of-structured-English)
+[Techniques-of-structured-English](https://github.com/SteveHHuang/9618/tree/main/Techniques-of-structured-English.md)
