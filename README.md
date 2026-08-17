@@ -11,3 +11,5 @@
 [Contents of paper4](https://github.com/SteveHHuang/9618/tree/main/Paper4_contents.md)
 
 [Techniques-of-structured-English](https://github.com/SteveHHuang/9618/tree/main/Techniques-of-structured-English.md)
+
+[Additional Notes For Paper4](https://github.com/SteveHHuang/9618/tree/main/Additional_Notes_For_Paper4_Practical.md)
